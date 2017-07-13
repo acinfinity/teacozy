@@ -78,3 +78,44 @@ a {
   height: 200px;
   width: 300px;
 }
+
+.locationsbox {
+  display: flex;
+  width: 1200px;
+  height: 500px;
+  background-image: url("images/img-locations-background.jpg");
+  margin: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locationsbox h2 {
+  width: 1200px;
+}
+
+.locationitems {
+  display: flex;
+}
+
+.locationitem {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  flex-direction: column;
+}
+
+.footer {
+}
+
+.contact {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.copyright h5 {
+  margin-left: 20px;
+}
