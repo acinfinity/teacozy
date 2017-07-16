@@ -28,10 +28,8 @@ body {
   height: 50px;
 }
 
-.content {
-  text-align: center;
-  position: relative;
-  top: 70px;
+.header span {
+  margin-left: 20px;
 }
 
 nav {
@@ -41,6 +39,12 @@ nav {
 a {
   text-decoration: underline;
   color: seashell;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+  top: 70px;
 }
 
 .mission {
@@ -74,6 +78,18 @@ a {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.item {
+  display: inline;
+  width: 300px;
+  margin: 0px 10px;
+}
+
+.item h4 {
+  width: 300px;
+  margin: 10px 0px 20px 0px;
+}
+
 .item img {
   height: 200px;
   width: 300px;
@@ -85,27 +101,30 @@ a {
   height: 500px;
   background-image: url("images/img-locations-background.jpg");
   margin: auto;
-  justify-content: center;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
 }
 
 .locationsbox h2 {
   width: 1200px;
-}
-
-.locationitems {
-  display: flex;
+  margin-bottom: 15px;
 }
 
 .locationitem {
   display: flex;
   width: 300px;
-  height: 300px;
   background-color: black;
-  flex-direction: column;
+  margin: 0px 20px;
+  flex-wrap: wrap;
 }
 
-.footer {
+.locationitem h3 {
+  width: 300px;
+}
+.locationitem span {
+  width: 300px;
+  margin-bottom: 30px;
 }
 
 .contact {
@@ -117,5 +136,6 @@ a {
 }
 
 .copyright h5 {
+  text-align: left;
   margin-left: 20px;
 }
